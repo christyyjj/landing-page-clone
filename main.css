@@ -1,0 +1,158 @@
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
+}
+
+body > * {
+  padding: 6% 12%;
+}
+
+.ads,
+button {
+  background-color: #3882f6;
+  color: #fff;
+  font-weight: bold;
+}
+
+button {
+  border: none;
+  padding: 1em 1.5em;
+  border-radius: 8px;
+}
+
+img {
+  height: 50vh;
+  max-height: 40vh;
+  object-fit: cover;
+}
+
+header,
+.banner,
+.ads {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header,
+.banner,
+footer {
+  background-color: #1f2937;
+  color: #f9faf8;
+}
+
+header,
+footer {
+  padding: 1em 12%;
+}
+
+.banner__title > p {
+  line-height: 1.5;
+}
+
+header a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+  width: 15vw;
+}
+
+nav li {
+  display: inline;
+  color: #e5e7eb;
+}
+
+.banner,
+.information {
+  max-height: 80vh;
+}
+
+.banner img {
+  width: 50%;
+}
+
+.banner__title {
+  max-width: 40%;
+}
+
+.banner h1 {
+  font-size: 48px;
+  font-weight: extra-bold;
+  margin: 0;
+}
+
+.information h2 {
+  font-size: 36px;
+  font-weight: extra-bold;
+  margin: 0;
+  color: #1f2937;
+  text-align: center;
+}
+
+.information__gallery {
+  display: flex;
+  flex-basis: 0;
+  flex-grow: 1;
+  justify-content: space-between;
+  margin-block-start: 2.5em;
+}
+
+.information__gallery-img {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 0;
+  margin-inline: 1.5em;
+}
+
+.information__gallery-img img {
+  width: 100%;
+}
+
+.testimonial {
+  background-color: #e5e7eb;
+  text-align: justify;
+  padding-inline: 12%;
+}
+
+blockquote {
+  font-size: 30px;
+  font-style: italic;
+  color: #1f2937;
+  margin: 0;
+  line-height: 1.25;
+}
+
+blockquote + h3 {
+  font-weight: 800;
+  text-align: end;
+  color: #1f2937;
+}
+
+.ads {
+  margin-inline: 12%;
+  margin-block: 6%;
+  padding-inline: 4em;
+  padding-block: 1.5em;
+  border-radius: 5px;
+}
+
+.ads button {
+  border: white medium solid;
+}
+
+footer {
+  text-align: center;
+}

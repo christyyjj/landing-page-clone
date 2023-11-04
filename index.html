@@ -1,56 +1,95 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Odin Projects | Landing Page</title>
+    <title>Architopia</title>
     <meta charset="utf-8" />
     <meta name="description" content="Landing Page" />
     <meta name="author" content="Odin Projects" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="main.css" />
   </head>
   <body>
     <header>
-      <a href="" class="logo">Logo</a>
+      <a href="." class="logo">Architopia</a>
       <nav>
         <ul>
-          <li><a href="">Home</a></li>
-          <li><a href="">About Us</a></li>
-          <li><a href="">Contact Us</a></li>
+          <li><a href="#banner">Home</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#testimonial">Testimonial</a></li>
         </ul>
       </nav>
     </header>
 
-    <section>
-      <div>
-        <h1>Heading</h1>
-        <p>Description</p>
+    <section class="banner" id="banner">
+      <div class="banner__title">
+        <h1>Architectural Marvels</h1>
+        <p>
+          Explore the world's architectural wonders in one place. Dive into a
+          visual showcase of timeless designs and modern masterpieces. Get
+          inspired by the art of architecture.
+        </p>
         <button>Sign Up</button>
       </div>
-      <div>
-        <img src="" alt="" />
+      <img
+        src="https://source.unsplash.com/a-building-with-columns-and-a-clock-on-the-wall-5DDrT2ioNuI"
+        alt="Image Placeholder"
+      />
+    </section>
+
+    <section class="information" id="gallery">
+      <h2>Urban Elegance</h2>
+      <div class="information__gallery">
+        <div class="information__gallery-img">
+          <a
+            href="https://unsplash.com/photos/low-angle-photography-of-gray-building-at-daytime-Sc5RKXLBjGg"
+          >
+            <img
+              src="https://source.unsplash.com/low-angle-photography-of-gray-building-at-daytime-Sc5RKXLBjGg"
+              alt="Tuletornen Exterior"
+            />
+          </a>
+          <p>Tuletornen</p>
+        </div>
+
+        <div class="information__gallery-img">
+          <a
+            href="https://unsplash.com/photos/brown-and-white-high-rise-buildings-jqO6euKr0qY"
+          >
+            <img
+              src="https://source.unsplash.com/brown-and-white-high-rise-buildings-jqO6euKr0qY"
+              alt="Shanghai Fuxing"
+            />
+          </a>
+          <p>Skyscraper</p>
+        </div>
+
+        <div class="information__gallery-img">
+          <a
+            href="https://unsplash.com/photos/a-couple-of-umbrellas-that-are-outside-of-a-building-Swbt8ID6AFw"
+          >
+            <img
+              src="https://source.unsplash.com/a-couple-of-umbrellas-that-are-outside-of-a-building-Swbt8ID6AFw"
+              alt="Umbrellas Outside of a Building"
+            />
+          </a>
+          <p>Town</p>
+        </div>
       </div>
     </section>
 
-    <section>
-      <h2>Some random information.</h2>
-      <div>
-        <img src="" alt="" />
-        <p>Caption</p>
-
-        <img src="" alt="" />
-        <p>Caption</p>
-
-        <img src="" alt="" />
-        <p>Caption</p>
-      </div>
+    <section class="testimonial" id="testimonial">
+      <blockquote>
+        Architecture is the poetic fusion of form and function, where every
+        building tells a unique story. It's the silent narrator of our
+        civilization's progress, an artistic masterpiece that stands the test of
+        time. Each structure reflects our past, shapes our present, and inspires
+        our future. Welcome to a world where the imagination takes flight in
+        brick and mortar!
+      </blockquote>
+      <h3>- Inspired by Julia Morgan</h3>
     </section>
 
-    <section>
-      <blockquote>quote</blockquote>
-      <h3>Author</h3>
-    </section>
-
-    <section>
+    <section class="ads">
       <div>
         <h3>Call to action! It's time!</h3>
         <p>Sign up for our product by clicking that button right over there!</p>
@@ -59,7 +98,7 @@
     </section>
 
     <footer>
-      <p>Copyright &copy; BlankDope 2023</p>
+      <p>Copyright &copy; Architopia 2023</p>
     </footer>
   </body>
 </html>
