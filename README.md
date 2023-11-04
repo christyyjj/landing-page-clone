@@ -1,2 +1,2 @@
-Odin Projects | Landing Page
-Image Credit from Unsplash
+# Odin Projects | Landing Page
+__Image Credit from Unsplash__
