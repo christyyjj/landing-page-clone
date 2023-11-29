@@ -3,22 +3,50 @@
   <head>
     <title>Architopia</title>
     <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <meta name="description" content="Landing Page" />
     <meta name="author" content="Odin Projects" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <link rel="stylesheet" href="main.css" />
+
+    <script defer src="TodoItem.js"></script>
+    <script defer src="TodoList.js"></script>
   </head>
+
   <body>
     <header>
       <a href="." class="logo">Architopia</a>
-      <nav>
-        <ul>
+      <nav class="nav-bar">
+        <ul class="nav-links">
           <li><a href="#banner">Home</a></li>
           <li><a href="#gallery">Gallery</a></li>
           <li><a href="#testimonial">Testimonial</a></li>
         </ul>
       </nav>
+
+      <div class="hamburger" onclick="toggleMenu()">
+        <div class="hamburger__line"></div>
+        <div class="hamburger__line"></div>
+        <div class="hamburger__line"></div>
+      </div>
     </header>
+
+    <!-- <div class="playground">
+      <todo-item checked="true">
+        Todo 1
+        <span slot="control">❌ Delete</span>
+      </todo-item>
+      <todo-item>Todo 2</todo-item>
+      <todo-item>Todo 3</todo-item>
+
+      <ul is="todo-list" data-expanded>
+        <li>First</li>
+        <li>Second</li>
+        <li>Third</li>
+      </ul>
+    </div> -->
 
     <section class="banner" id="banner">
       <div class="banner__title">
@@ -90,15 +118,21 @@
     </section>
 
     <section class="ads">
-      <div>
-        <h3>Call to action! It's time!</h3>
-        <p>Sign up for our product by clicking that button right over there!</p>
+      <div class="ads__banner">
+        <div class="ads__headline">
+          <h3>Call to action! It's time!</h3>
+          <p>
+            Sign up for our product by clicking that button right over there!
+          </p>
+        </div>
+        <button>Sign Up</button>
       </div>
-      <button>Sign Up</button>
     </section>
 
     <footer>
       <p>Copyright &copy; Architopia 2023</p>
     </footer>
+
+    <script src="main.js"></script>
   </body>
 </html>
