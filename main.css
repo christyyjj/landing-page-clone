@@ -169,7 +169,7 @@ nav.hamburger + .hamburger.active .hamburger__line:nth-child(2) {
 
 blockquote {
   font-size: 1em;
-  margin: 1.5em 2em;
+  margin: 1.5em 0;
   font-style: italic;
 }
 
@@ -185,7 +185,7 @@ blockquote + h3 {
 }
 
 .ads__banner {
-  margin: 2em;
+  margin: 2em 15vh;
   padding: 1.5em 2em;
   border-radius: 10px;
   text-align: center;
@@ -232,11 +232,11 @@ footer {
 @media only screen and (min-width: 48em) {
   header {
     height: 20vh;
-    padding: 0 8vh;
+    padding: 0 15vh;
   }
 
   section {
-    padding: 3vh 8vh;
+    padding: 3vh 15vh;
   }
 
   .banner {
@@ -259,6 +259,10 @@ footer {
 
   .nav-links {
     gap: 2em;
+  }
+
+  .ads__banner {
+    margin: 2em 15vh;
   }
 }
 
@@ -315,7 +319,7 @@ footer {
   }
 
   .ads__banner {
-    margin: 5% 10%;
+    margin: 5% 15vh;
     padding: 2em 2.5em;
   }
 
@@ -325,10 +329,6 @@ footer {
 
   .ads__headline p {
     line-height: 1.75em;
-  }
-
-  blockquote {
-    margin: 1.5em 6%;
   }
 }
 
